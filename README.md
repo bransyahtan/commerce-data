@@ -61,5 +61,8 @@ Mock server API menyediakan endpoint berikut:
 
 - `GET /users` - Mendapatkan daftar pengguna
 - `GET /packages` - Mendapatkan daftar paket data
+- `POST /packages` - Menambahkan paket data baru
+- `PUT /packages/:id` - Mengedit paket data yang sudah ada
+- `DELETE /packages/:id` - Menghapus paket data yang sudah ada
 - `GET /transactions` - Mendapatkan daftar transaksi
 - `POST /transactions` - Membuat transaksi baru
