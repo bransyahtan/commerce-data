@@ -1,8 +1,7 @@
 # E-Commerce Data Internet
 
 Aplikasi e-commerce untuk pembelian paket data internet dengan React, TypeScript, Material-UI, dan Redux Toolkit.
-Waktu Pembuatan: 8 Juni 2025
-Waktu Selesai: 9 Juni 2025
+Waktu Pembuatan: 8 Juni 2025 - Waktu Selesai: 9 Juni 2025
 
 ## Fitur
 
