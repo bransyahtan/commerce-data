@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "admin123",
+      "password": "password123",
       "email": "admin@gmail.com",
       "name": "Admin",
       "role": 1
@@ -11,17 +11,17 @@
     {
       "id": 2,
       "username": "sultan",
-      "password": "sultan123",
+      "password": "password123",
       "email": "sultan@gmail.com",
-      "name": "Sultan Bransyah",
+      "name": "Sultan",
       "role": 2
     },
     {
       "id": 3,
-      "username": "sultan2",
-      "password": "sultan123",
-      "email": "sultan2@gmail.com",
-      "name": "Sultan Bransyah 2",
+      "username": "bransyah",
+      "password": "password123",
+      "email": "bransyah@gmail.com",
+      "name": "Bransyah",
       "role": 2
     }
   ],
@@ -49,64 +49,56 @@
       "duration": "30 hari",
       "description": "Paket internet bulanan dengan kuota 20GB",
       "id": 3
+    },
+    {
+      "name": "Paket Istimewa",
+      "price": 123000,
+      "data": "12 GB",
+      "duration": "3 Bulan",
+      "description": "Paket Khusus",
+      "id": 4
     }
   ],
   "transactions": [
     {
-      "userId": 2,
-      "packageId": 2,
-      "date": "2025-06-09T08:30:09.123Z",
+      "userId": 3,
+      "packageId": 4,
+      "date": "2025-06-09T09:28:08.202Z",
       "status": "completed",
-      "total": 50000,
+      "total": 123000,
       "id": 1
     },
     {
       "userId": 3,
-      "packageId": 2,
-      "date": "2025-06-09T08:30:09.123Z",
+      "packageId": 1,
+      "date": "2025-06-09T09:28:19.233Z",
       "status": "completed",
-      "total": 50000,
-      "id": 3
+      "total": 10000,
+      "id": 2
     },
     {
-      "userId": 3,
+      "userId": 2,
       "packageId": 3,
-      "date": "2025-06-09T08:30:09.123Z",
+      "date": "2025-06-09T09:28:40.931Z",
       "status": "completed",
-      "total": 50000,
+      "total": 150000,
       "id": 3
     },
     {
       "userId": 2,
       "packageId": 1,
-      "date": "2025-06-09T08:41:56.300Z",
+      "date": "2025-06-09T09:28:52.212Z",
       "status": "completed",
       "total": 10000,
       "id": 4
     },
     {
       "userId": 2,
-      "packageId": 3,
-      "date": "2025-06-09T08:42:08.006Z",
+      "packageId": 4,
+      "date": "2025-06-09T09:29:01.863Z",
       "status": "completed",
-      "total": 150000,
+      "total": 123000,
       "id": 5
-    },
-    {
-      "userId": 2,
-      "packageId": 3,
-      "date": "2025-06-09T09:03:58.121Z",
-      "status": "completed",
-      "total": 150000,
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "packageId": 1,
-      "date": "2025-06-09T09:14:54.217Z",
-      "status": "completed",
-      "total": 10000,
-      "id": 7
     }
   ]
 }
