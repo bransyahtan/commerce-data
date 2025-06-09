@@ -99,6 +99,14 @@
       "status": "completed",
       "total": 150000,
       "id": 6
+    },
+    {
+      "userId": 2,
+      "packageId": 1,
+      "date": "2025-06-09T09:14:54.217Z",
+      "status": "completed",
+      "total": 10000,
+      "id": 7
     }
   ]
 }
