@@ -1,6 +1,9 @@
+import { Visibility, VisibilityOff } from "@mui/icons-material";
 import {
   Box,
   Button,
+  IconButton,
+  InputAdornment,
   Paper,
   TextField,
   Typography,
@@ -20,6 +23,7 @@ import {
 const Login: React.FC = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const theme = useTheme();
@@ -62,6 +66,10 @@ const Login: React.FC = () => {
       });
       dispatch(loginFailure("Terjadi kesalahan saat login"));
     }
+  };
+
+  const handleClickShowPassword = () => {
+    setShowPassword(!showPassword);
   };
 
   return (
@@ -148,11 +156,24 @@ const Login: React.FC = () => {
             fullWidth
             name="password"
             label="Password"
-            type="password"
+            type={showPassword ? "text" : "password"}
             id="password"
             autoComplete="current-password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            InputProps={{
+              endAdornment: (
+                <InputAdornment position="end">
+                  <IconButton
+                    aria-label="toggle password visibility"
+                    onClick={handleClickShowPassword}
+                    edge="end"
+                  >
+                    {showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+                </InputAdornment>
+              ),
+            }}
             sx={{
               "& .MuiOutlinedInput-root": {
                 "&:hover fieldset": {

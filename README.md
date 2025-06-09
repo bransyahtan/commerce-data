@@ -39,10 +39,15 @@ Aplikasi e-commerce untuk pembelian paket data internet dengan React, TypeScript
    ```
 5. Buka browser dan akses `http://localhost:5173`
 
-## Kredensial Login
+## Kredensial Login Admin
 
-- Username: user1
-- Password: password123
+- Username: admin
+- Password: admin123
+
+## Kredensial Login Pembeli
+
+- Username: sultan
+- Password: sultan123
 
 ## Struktur Folder
 
