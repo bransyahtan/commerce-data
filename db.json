@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "username": "sultan",
+      "password": "sultan123",
+      "email": "sultan@gmail.com",
+      "name": "Sultan Bransyah",
+      "role": 2
+    },
+    {
+      "id": 3,
+      "username": "sultan2",
+      "password": "sultan123",
+      "email": "sultan2@gmail.com",
+      "name": "Sultan Bransyah 2",
+      "role": 2
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Paket Harian",
+      "price": 10000,
+      "data": "1GB",
+      "duration": "24 jam",
+      "description": "Paket internet harian dengan kuota 1GB"
+    },
+    {
+      "id": 2,
+      "name": "Paket Mingguan",
+      "price": 50000,
+      "data": "5GB",
+      "duration": "7 hari",
+      "description": "Paket internet mingguan dengan kuota 5GB"
+    },
+    {
+      "name": "Paket Bulanan Awal",
+      "price": 150000,
+      "data": "20GB",
+      "duration": "30 hari",
+      "description": "Paket internet bulanan dengan kuota 20GB",
+      "id": 3
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 2,
+      "packageId": 2,
+      "date": "2025-06-09T08:30:09.123Z",
+      "status": "completed",
+      "total": 50000,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "packageId": 2,
+      "date": "2025-06-09T08:30:09.123Z",
+      "status": "completed",
+      "total": 50000,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "packageId": 3,
+      "date": "2025-06-09T08:30:09.123Z",
+      "status": "completed",
+      "total": 50000,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "packageId": 1,
+      "date": "2025-06-09T08:41:56.300Z",
+      "status": "completed",
+      "total": 10000,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "packageId": 3,
+      "date": "2025-06-09T08:42:08.006Z",
+      "status": "completed",
+      "total": 150000,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "packageId": 3,
+      "date": "2025-06-09T09:03:58.121Z",
+      "status": "completed",
+      "total": 150000,
+      "id": 6
+    }
+  ]
+}
